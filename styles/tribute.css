@@ -1,0 +1,196 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  background-color: rgb(225, 238, 239);
+}
+
+main {
+  background-color: rgb(3,94,129);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  border: 0.5px solid transparent;
+  border-radius: 0.2%;
+  padding-bottom: 2.5%;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+#title {
+  font-size: 3.5em;
+  line-height: 1.1em;
+  letter-spacing: 0.05em;
+  margin: 0;
+  padding-top: 2%;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+#title-intro {
+  padding: 0;
+  margin: 0.75% 0 1% 0;
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+#img-div {
+  border: 0.5px solid transparent;
+  border-radius: 0.2%;
+  background-color: rgb(225, 238, 239);
+  color: rgb(2, 78, 109);
+  text-align: center;
+  margin: 0 0.5%;
+  height: 40%;
+  padding: 0.75% 0 0.5% 0;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 50%;
+  margin: 0 auto;
+  border: 0.5px solid transparent;
+  border-radius: 1.5%;
+  /*border-shadow: ;*/
+}
+
+/*text  styles - add extra styles in mediaquery*/
+#credit {
+  margin: 0;
+  padding: 0;
+  color: rgba(2, 78, 109, 0.75);
+  font-size: 0.85em;
+}
+/*text  styles - add extra styles in mediaquery*/
+#img-caption {
+  font-size: 1.2em;
+  padding: 0.75% 0 0.5% 0;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+#tribute-info {
+  display: inline-block;
+  margin: 0, auto;
+  width: 50%;
+  text-align: justify;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+h2 {
+  text-align: center;
+  font-size: 1.65em;
+  line-height: 1.1em;
+  padding-top: 1.5%;
+  font-weight: 500;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+ul  {
+ padding-left: 34%;
+ list-style-type: none;
+ text-align: justify;
+ line-height: 1.75em;
+ font-size: 1.05em;
+}
+
+i {
+  color: rgb(225, 238, 239);
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+#quote {
+  display:block;
+  margin: 1.5% auto 0 auto;
+  width: 35%;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+h3 {
+  padding-top: 1.5%;
+}
+
+/*text  styles - add extra styles in mediaquery*/
+#tribute-link {
+  color: rgb(150, 225, 255);
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  #title {
+    font-size: 12vw;
+  }
+
+  #title-intro {
+    font-size: 4vw;
+  }
+
+  #credit {
+    font-size: 2vw;
+  }
+
+  #image {
+    padding-top: 2%;
+  }
+
+  #img-caption {
+    font-size: 4vw;
+    padding: 3% 1%;
+  }
+
+  h2 {
+    font-size: 5.5vw;
+  }
+
+  #tribute-info {
+    font-size: 4vw;
+    width: 70%;
+  }
+
+  ul  {
+   padding-left: 5%;
+   font-size: 4vw;
+  }
+
+  #quote {
+    width: 75%;
+    font-size: 5vw;
+  }
+
+  h3 {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 1000px) {
+  ul  {
+   padding-left: 5%;
+  }
+
+  #quote {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1400px) {
+  ul  {
+   padding-left:16%;
+  }
+
+  #quote {
+    width: 65%;
+  }
+}
